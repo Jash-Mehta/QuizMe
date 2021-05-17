@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_bg"
+    tools:context=".ProfileFragment">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_man"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/update_fullname"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/edt_txt_btn"
+        android:ems="5"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:paddingStart="40dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <EditText
+        android:id="@+id/signup_phoneno"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edt_txt_btn"
+        android:ems="5"
+        android:hint="PhoneNo"
+        android:inputType="number"
+        android:paddingLeft="40dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/update_fullname"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/update_fullname"
+        app:layout_constraintTop_toBottomOf="@+id/update_fullname"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edt_txt_btn"
+        android:ems="5"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="43dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/signup_phoneno"
+        app:layout_constraintStart_toStartOf="@+id/signup_phoneno"
+        app:layout_constraintTop_toBottomOf="@+id/signup_phoneno"
+        app:layout_constraintVertical_bias="0.046" />
+    <EditText
+        android:id="@+id/update_Email"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edt_txt_btn"
+        android:ems="5"
+        android:hint="Email"
+        android:inputType="textPassword"
+        android:paddingStart="43dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/signup_password"
+        app:layout_constraintStart_toStartOf="@+id/signup_password"
+        app:layout_constraintTop_toBottomOf="@+id/signup_password"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:src="@drawable/user"
+
+        app:layout_constraintBottom_toBottomOf="@+id/update_fullname"
+        app:layout_constraintStart_toStartOf="@+id/update_fullname"
+        app:layout_constraintTop_toTopOf="@+id/update_fullname" />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:src="@drawable/phonecall"
+        app:layout_constraintBottom_toBottomOf="@+id/signup_phoneno"
+        app:layout_constraintStart_toStartOf="@+id/signup_phoneno"
+        app:layout_constraintTop_toTopOf="@+id/signup_phoneno" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:src="@drawable/lock"
+        app:layout_constraintBottom_toBottomOf="@+id/signup_password"
+        app:layout_constraintStart_toStartOf="@+id/signup_password"
+        app:layout_constraintTop_toTopOf="@+id/signup_password" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/darkpurple"
+        android:text="update profile"
+        app:layout_constraintEnd_toEndOf="@+id/update_Email"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/update_Email" />
+    <ImageView
+        android:id="@+id/update_Email_logo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="@+id/update_Email"
+        app:layout_constraintStart_toStartOf="@+id/update_Email"
+        app:layout_constraintTop_toTopOf="@+id/update_Email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
