@@ -18,7 +18,7 @@ An Android application which is built using Anroid Studio, depicting a perfect s
 * `firebase`
 
 ## Early preview
-- Home
+
 <p align="center">
   <img src="https://i.ibb.co/QCSRNXf/screely-1621497556711.png" title="Home"/>
 </p>
