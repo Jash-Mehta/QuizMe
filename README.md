@@ -1,17 +1,17 @@
 # QuizMe
 
 ## Quick introduction
-An Android application which is built using Anroid Studio, depicting a perfect simulation of a mock test application. Basically, the app is developed in integration with firebase for setting up databases and authentication.
+An Android application which is built using Android Studio, depicting a perfect simulation of a mock test application. Basically, the app is developed in integration with firebase for setting up databases and authentication.
 
 ## features
 * Easy to use application with proper instructions.
 * Behaves exactly same as any mock test application.
 * User can select any available subject listed there.
-* For every particular question, there's a countdown running after which user is not eligible for attending that same question.
-* Consist a global leader board where users will be ranked upon and rewarded with coins.
+* For every particular question, there's a countdown⏳running after which user is not eligible for attending that same question.
+* Consist a global leader board where users will be ranked upon and rewarded with coins💰💰.
 * Scorecard after every subject quiz attempt.
-* User can uodate profile.
-* Spin a wheel to get rewards.
+* User can update profile.
+* Spin a wheel to get rewards🎉🎊.
 
 ## Technologies used
 * `Android studio`
