@@ -1,4 +1,4 @@
-# QuizMe
+# QuizMe📃📚
 
 ## Quick introduction
 An Android application which is built using Android Studio, depicting a perfect simulation of a mock test application. Basically, the app is developed in integration with firebase for setting up databases and authentication.
